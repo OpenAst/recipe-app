@@ -1,0 +1,25 @@
+.form-control {
+    width: 100%;
+    border-radius: 5%;
+    height: 20%;
+}
+
+.container {
+    display: flex;;
+    justify-content: center;
+    border: 1px solid red;
+    margin: 20% auto;
+
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+    height: 50vh;
+    
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.btn-primary {
+    text-align: center;
+    justify-content: center;
+}

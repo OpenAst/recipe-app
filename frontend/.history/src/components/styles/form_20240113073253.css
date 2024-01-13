@@ -1,0 +1,26 @@
+.form-control {
+    width: 100%;
+    border-radius: 5%;
+    height: 20px;
+}
+
+.container {
+    display: flex;;
+    justify-content: center;
+    border: 1px solid red;
+    margin: 20% auto;
+    background-color: rgb(159, 159, 235);
+
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+    height: 50vh;
+    
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.btn-primary {
+    text-align: center;
+    justify-content: center;
+}

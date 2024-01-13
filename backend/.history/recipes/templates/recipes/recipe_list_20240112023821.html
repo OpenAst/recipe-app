@@ -1,0 +1,15 @@
+<head>
+    <title>Recipe</title>
+</head>
+
+<body>
+    <h1>Recipe List</h1>
+    <ul>
+        <strong>{{ recipe.title }}</strong><br />
+        <em>By
+        {% for recipe in recipes %}
+            <li>{{ recipe.title }} - {{ recipe.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+    

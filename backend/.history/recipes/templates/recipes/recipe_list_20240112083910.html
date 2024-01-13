@@ -1,0 +1,18 @@
+<head>
+    <title>Recipe</title>
+</head>
+
+<body>
+    <h1>Recipe List</h1>
+    <ul>
+        {% for recipe in recipes %}
+            <li>
+                <strong>{{ recipe.title }}</strong><br />
+                <em>By {{ recipe.author.username }}</em><br />
+                {{ recipe.description }}<br />   
+                <p>Created at: {{ recipe.created_at }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+    

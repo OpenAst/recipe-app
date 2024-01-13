@@ -1,0 +1,19 @@
+.form_style {
+    text-align: center;
+    margin: 20px 0 10px 0px;
+    
+}
+.login-form {
+    display: flex;;
+    justify-content: center;
+    border: 1px solid red;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+    height: 10vh;
+    
+}
+.form-group {
+    margin-bottom: 10px;
+}

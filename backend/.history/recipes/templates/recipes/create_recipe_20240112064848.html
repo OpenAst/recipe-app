@@ -1,0 +1,13 @@
+
+ 
+{% block content %}
+    <h1>Create Recipe</h1>
+    <form method='POST'>
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {{ form.title.label_tag }} {{ form.title }}
+        {{ form.id_label_tag }} {{ form.id }}
+        {{ form.description.label_tag }} {{ form.description }}
+        <button type='submit'>Create Your Recipe</button>
+    </form>   
+{% endblock  %}

@@ -1,0 +1,15 @@
+.form_style {
+    text-align: center;
+    margin: 20px 0 10px 0px;
+    
+}
+.login-form {
+    border: 1px solid red;
+    margin: 50% 0 0 0;
+    padding: 10px;
+    width: 50%;
+    
+}
+.form-group {
+    margin-bottom: 10px;
+}
