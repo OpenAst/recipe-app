@@ -1,16 +1,16 @@
-#Table of Contents
+# Table of Contents
 - Introduction
 - Team
 - Technologies
 - Learning Objectives
 
-#Introduction
+# Introduction
 Recipe-app is a simple user-facing application for creating recipes and interacting with other creators.
 
-#Team
+# Team
 - Opeyemi Israel: ALX Software Engineering Student: Github: [check it out](https://www.github.com/OpenAst)
 
-#Technologies
+# Technologies
 - **Django**: Python fullstack webframework for modular and easier software development.
 - **React Js**: Frontend library for light weight development.
 - **Axios**: Request and Response communicating protocol between frontend and backend.
