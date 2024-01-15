@@ -17,12 +17,17 @@ def create_recipe(request):
             title = data.get('title') 
             ingredients = data.get('ingredients')
             instructions = data.get('instructions')
+
+            print(title, ingredients, instructions)
             
             Recipe.objects.create(title=title, ingredients=ingredients, instructions=instructions)
             return JsonResponse({'message': 'Recipe created successfully'}, status=201)
         
         except Exception as e:
             return JsonResponse({'error': str(e)}, status=500)
+
+    else:
+        return JsonResponse({'error': 'Invalid request method'}, status=405)
         
 def create_recipe_form(request):
     if request.method == 'GET':
