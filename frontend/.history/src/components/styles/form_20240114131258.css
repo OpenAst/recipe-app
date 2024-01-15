@@ -1,0 +1,48 @@
+.form-control {
+    width: 100%;
+    border-radius: 5%;
+    height: 20px;
+}
+
+.container {
+    display: flex;;
+    justify-content: center;
+    border: 1px solid #ff0000;
+    margin: 20% auto;
+    background-color: rgb(229, 229, 235);
+
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+    height: 50vh;
+    
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.btn-primary {
+    text-align: center;
+    justify-content: center;
+}
+
+.create_container {
+    border: 1px solid rgb(198, 198, 255);
+    padding: 10px;
+    display: fixed;
+    width: 50%;
+    align-items: center;
+    margin-top: 10px; 
+    justify-content: center;
+}
+.create_header {
+    text-align: center;
+}
+
+.label_create {
+    margin: 50px 50px 50px 50px;
+    align-items: center;
+    justify-content: center;
+}
+.create_btn {
+    
+}
