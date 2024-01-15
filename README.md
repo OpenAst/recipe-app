@@ -20,4 +20,8 @@ Recipe-app is a simple user-facing application for creating recipes and interact
 - How to declare API routes in a Django app
 - How to retrieve request form data
 - How to return various HTTP status codes
+
+# Mock
+- ![recipe_mock](https://github.com/OpenAst/recipe-app/assets/98494187/2f14d4ca-baec-49db-8528-d15123c10ba9)
+
   
