@@ -5,14 +5,15 @@ import axios from 'axios';
 const CreateRecipe = () => {
     const [recipeData, setRecipeData] = useState({
         title: '',
-        ingredients: '',
+        description: '',
         instructions: '',
     });
     
     const handleCreateRecipe = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/recipes/create/', recipeData);
+            const response = await axios.post('create/', recipeData);
+
             if (response.status === 201) {
                 console.log('Recipe created successfully');
             } else {
@@ -45,17 +46,17 @@ const CreateRecipe = () => {
                 </label>
                 <br />
                 <label className="label_create" htmlFor='text'>
-                    Ingredients:
+                    Description:
                     <textarea
-                    name='ingredients'
+                    name='description'
                     onChange={handleChange}
                     />
                 </label>
                 <br />
                 <label className="label_create" htmlFor='text'>
-                    Instructions:
+                    Ingredients:
                     <textarea
-                    name='instructions'
+                    name='ingredients'
                     onChange={handleChange}
                     />
                 </label>

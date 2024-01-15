@@ -55,7 +55,7 @@ const CreateRecipe = () => {
                 <label className="label_create" htmlFor='text'>
                     Instructions:
                     <textarea
-                    name='instructions'
+                    name='Instructions'
                     onChange={handleChange}
                     />
                 </label>

@@ -6,14 +6,14 @@ const SignupForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const navigate = useNavigate();
-
-  const navigateToLogin = () => {
-    navigate('/', { replace: true });
-  };
   
   const handleSignup = async (e) => {
     
+    const navigate = useNavigate();
+  
+    const navigateToLogin = () => {
+      navigate('/', { replace: true });
+    };
     e.preventDefault();
 
     try {

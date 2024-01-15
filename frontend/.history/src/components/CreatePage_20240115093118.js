@@ -12,7 +12,7 @@ const CreateRecipe = () => {
     const handleCreateRecipe = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/recipes/create/', recipeData);
+            const response = await axios.post('/recipes/create-recipe/', recipeData);
             if (response.status === 201) {
                 console.log('Recipe created successfully');
             } else {
@@ -47,7 +47,7 @@ const CreateRecipe = () => {
                 <label className="label_create" htmlFor='text'>
                     Ingredients:
                     <textarea
-                    name='ingredients'
+                    name='Ingredients'
                     onChange={handleChange}
                     />
                 </label>
@@ -55,7 +55,7 @@ const CreateRecipe = () => {
                 <label className="label_create" htmlFor='text'>
                     Instructions:
                     <textarea
-                    name='instructions'
+                    name='Instructions'
                     onChange={handleChange}
                     />
                 </label>
